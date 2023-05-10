@@ -73,6 +73,7 @@ const deleteProductById = async (req, res) => {
     }
 };
 
+
 module.exports = {
     getProducts,addProduct,updateProductById,deleteProductById
 };
