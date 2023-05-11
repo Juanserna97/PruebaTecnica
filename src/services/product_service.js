@@ -29,7 +29,7 @@ async function insertProduct(params, img) {
         .catch(err => {
             console.log('Error saving product to database', err);
         });
-}
+};
 
 //función para actualiza una producto por id
 async function updateProduct(id, update, img) {
